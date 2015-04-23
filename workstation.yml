@@ -1,0 +1,8 @@
+---
+  - hosts: localhost
+    sudo: true
+    serial: 1
+    gather_facts: no
+    tasks:
+    - name: ping
+      ping: 
