@@ -3,6 +3,13 @@
     sudo: true
     serial: 1
     gather_facts: no
-    tasks:
-    - name: ping
-      ping: 
+    roles:
+      - ansible
+      - vim
+      - git
+      - subversion
+      - java
+      - mysql-client
+      - mongo-client
+      - postgres-client
+      - php-cli-env-dev
