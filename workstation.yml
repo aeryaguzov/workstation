@@ -1,21 +1,9 @@
 ---
-  - hosts: localhost
-    sudo: true
-    serial: 1
-    gather_facts: no
-    roles:
-      - ansible
-      - vim
-      - git
-      - subversion
-      - java
-      - mysql-client
-      - mongo-client
-      - postgres-client
-      - php-cli-env-dev
-      - php-ext-curl
-      - php-ext-mongo
-      - php-ext-mysql
-      - php-ext-postgres
-      - php-ext-mcrypt
-      - php-ext-memcached
+- hosts: localhost
+  sudo: true
+  serial: 1
+  gather_facts: no
+  roles:
+    - ansible
+    - vim
+    - git
