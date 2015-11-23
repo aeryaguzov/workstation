@@ -6,5 +6,5 @@
   roles:
     - ansible
     - ssh
-    - vim
     - git
+    - vim
