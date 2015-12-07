@@ -11,3 +11,6 @@
     - java
     - nodejs
     - php-cli-env-dev
+    - mongo-client
+    - mysql-client
+    - postgres-client
