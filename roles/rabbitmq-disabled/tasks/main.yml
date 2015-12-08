@@ -1,0 +1,3 @@
+---
+- name: disable rabbitmq
+  service: name=rabbitmq-server enabled=no state=stopped
