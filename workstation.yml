@@ -15,4 +15,5 @@
     - mysql-client
     - postgres-client
     - mongo-disabled
+    - postgres-disabled
     - rabbitmq-disabled

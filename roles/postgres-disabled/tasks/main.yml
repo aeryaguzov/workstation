@@ -1,0 +1,3 @@
+---
+- name: disable postgres
+  service: name=postgresql enabled=no state=stopped
