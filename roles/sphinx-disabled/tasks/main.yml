@@ -1,0 +1,3 @@
+---
+- name: disable sphinx
+  service: name=sphinxsearch enabled=no state=stopped
