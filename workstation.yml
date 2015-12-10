@@ -18,3 +18,4 @@
     - postgres-disabled
     - rabbitmq-disabled
     - sphinx-disabled
+    - elastic-disabled
