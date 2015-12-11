@@ -19,3 +19,4 @@
     - rabbitmq-disabled
     - sphinx-disabled
     - elastic-disabled
+    - nginx-disabled
