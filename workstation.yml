@@ -20,3 +20,4 @@
     - sphinx-disabled
     - elastic-disabled
     - nginx-disabled
+    - memcached-disabled
