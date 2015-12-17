@@ -1,0 +1,3 @@
+---
+- name: disable fpm
+  service: name=php5-fpm enabled=no state=stopped

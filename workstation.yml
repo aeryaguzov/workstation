@@ -21,3 +21,4 @@
     - elastic-disabled
     - nginx-disabled
     - memcached-disabled
+    - php-fpm-disabled
