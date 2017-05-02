@@ -2,7 +2,7 @@
 
 Software setup for my development desktop.
 
-It is well tested on latest Ubuntu LTS release and is also a proof of concept for my [software] (https://github.com/aeryaguzov/software.git) project.
+It is well tested on latest Ubuntu LTS release.
 
 ## Setup
 
