@@ -1,4 +1,4 @@
 ---
 # https://youtrack.jetbrains.com/issue/IDEA-78860
 - name: setup ibus issue workaround
-  lineinfile: create=yes state=present line=export IBUS_ENABLE_SYNC_MODE=1 dest=/home/{{ansible_ssh_user}}/.profile
+  lineinfile: create=yes state=present line=export IBUS_ENABLE_SYNC_MODE=1 dest=/home/{{ansible_user}}/.profile
