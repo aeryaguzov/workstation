@@ -1,3 +1,0 @@
----
-- name: disable elastic
-  service: name=elasticsearch enabled=no state=stopped

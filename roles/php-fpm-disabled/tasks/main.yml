@@ -1,3 +1,0 @@
----
-- name: disable fpm
-  service: name=php7.0-fpm enabled=no state=stopped

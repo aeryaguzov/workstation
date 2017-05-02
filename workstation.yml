@@ -4,21 +4,4 @@
   become_user: true
   gather_facts: no
   roles:
-    - ansible
     - ssh
-    - git
-    - vim
-    - java
-    - nodejs
-    - php-cli-env-dev
-    - mongo-client
-    - mysql-client
-    - postgres-client
-    - mongo-disabled
-    - postgres-disabled
-    - rabbitmq-disabled
-    - sphinx-disabled
-    - elastic-disabled
-    - nginx-disabled
-    - memcached-disabled
-    - php-fpm-disabled

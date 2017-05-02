@@ -1,3 +1,0 @@
----
-- name: disable mongo
-  service: name=mongod enabled=no state=stopped
