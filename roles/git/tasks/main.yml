@@ -1,0 +1,13 @@
+---
+- name: install git
+  apt:
+    name: git
+    state: present
+- name: create config file
+  copy:
+    src: ".gitconfig"
+    dest: "/home/{{ansible_user}}/.gitconfig"
+- name: create global ignore config
+  copy:
+    src: ".gitignore"
+    dest: "/home/{{ansible_user}}/.gitignore"
