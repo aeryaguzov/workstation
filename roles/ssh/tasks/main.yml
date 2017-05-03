@@ -1,3 +1,5 @@
 ---
 - name: install ssh config
-  copy: src=config dest=/home/{{ansible_ssh_user}}/.ssh/config
+  copy:
+    src: config
+    dest: "/home/{{ansible_user}}/.ssh/config"
