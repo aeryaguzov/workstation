@@ -2,7 +2,7 @@
 
 Software setup for my development desktop.
 
-It is well tested on latest Ubuntu LTS release.
+It was tested on latest Ubuntu LTS release in 2015, but now is no longer supported.
 
 ## Setup
 
